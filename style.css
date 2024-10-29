@@ -1,0 +1,83 @@
+/* Estilo Geral do Container */
+.container {
+    max-width: 600px; /* Largura máxima do container */
+    margin: 20px auto; /* Centraliza o container */
+    padding: 20px; /* Adiciona preenchimento interno */
+    border: 1px solid #ccc; /* Borda do container */
+    border-radius: 8px; /* Bordas arredondadas */
+    background-color: #f4f4f4; /* Cor de fundo */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estilos dos Títulos */
+h1, h2 {
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo do Formulário */
+form {
+    margin-bottom: 20px; /* Espaço entre os formulários */
+}
+
+/* Estilo dos Inputs */
+input[type="text"] {
+    width: 100%; /* Largura total do campo de texto */
+    padding: 10px; /* Preenchimento interno do campo */
+    border: 1px solid #ccc; /* Borda do campo */
+    border-radius: 4px; /* Bordas arredondadas */
+    margin-bottom: 10px; /* Espaço abaixo do campo */
+}
+
+/* Estilo dos Botões */
+button {
+    background-color: #4a4a4a; /* Cor de fundo do botão (cinza escuro) */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    padding: 8px 12px; /* Preenchimento do botão */
+    cursor: pointer; /* Mudança do cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Efeito de transição na cor de fundo */
+    font-size: 14px; /* Tamanho da fonte do botão */
+}
+
+/* Efeito Hover nos Botões */
+button:hover {
+    background-color: #3b3b3b; /* Cor do botão quando passa o mouse (cinza mais escuro) */
+}
+
+/* Estilo das Mensagens */
+.message {
+    margin: 15px 0; /* Margem acima e abaixo da mensagem */
+    padding: 10px; /* Preenchimento interno da mensagem */
+    border-radius: 4px; /* Bordas arredondadas */
+    background-color: #e0e0e0; /* Cor de fundo da mensagem (cinza claro) */
+    border: 1px solid #b0b0b0; /* Borda da mensagem */
+    color: #333; /* Cor do texto da mensagem */
+}
+
+/* Estilo da Lista de Produtos */
+ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+li {
+    display: flex; /* Usa flexbox para o alinhamento */
+    justify-content: space-between; /* Espaçamento entre itens */
+    align-items: center; /* Alinhamento vertical */
+    padding: 10px; /* Preenchimento interno dos itens da lista */
+    border-bottom: 1px solid #ccc; /* Borda inferior */
+}
+
+/* Estilo dos Botões de Exclusão (específico) */
+form button[type="submit"] {
+    background-color: #4a4a4a; /* Cor de fundo para o botão de excluir (cinza escuro) */
+    padding: 4px 8px; /* Reduz o preenchimento do botão */
+    font-size: 12px; /* Reduz o tamanho da fonte */
+    margin-left: 10px; /* Espaço à esquerda do botão de excluir */
+}
+
+/* Efeito Hover para o Botão de Exclusão */
+form button[type="submit"]:hover {
+    background-color: #3b3b3b; /* Cor ao passar o mouse (cinza mais escuro) */
+}
